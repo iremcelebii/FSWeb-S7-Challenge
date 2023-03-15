@@ -21,12 +21,15 @@ const App = () => {
           <Route path="/pizza">
             <FormPizza />
           </Route>
+
           <Route path="/burger">
             <FormBurger />
           </Route>
+
           <Route path="/kumpir">
             <FormKumpir />
           </Route>
+
           <Route path="/salata">
             <FormSalata />
           </Route>
@@ -34,6 +37,7 @@ const App = () => {
           <Route path="/evyemekleri">
             <FormEvyemekleri />
           </Route>
+
           <Route path="/cigkofte">
             <FormCigkofte />
           </Route>

@@ -94,7 +94,7 @@ export default function FormPizza() {
 
   useEffect(() => {
     formSchema.isValid(formData).then((valid) => setButtonDisabledMi(!valid));
-  }, [formData]);
+  }, [errors]);
 
   useEffect(() => {
     console.log("formData");
